@@ -1,7 +1,12 @@
 (ns app.main)
 
+(defonce token 0)
+
 (defn reload! []
-  (println "reloaded!"))
+  (println (str "value of token " token)))
 
 (defn main! []
-  (println "loaded!"))
+  (println "started!"))
+
+(comment
+  (prn token))
