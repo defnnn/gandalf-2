@@ -1,4 +1,5 @@
-(ns app.main)
+(ns app.main
+  (:require [childprocess :as cp]))
 
 (defonce token 0)
 

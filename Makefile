@@ -33,6 +33,10 @@ requirements:
 	@echo
 	drone exec --pipeline $@
 
+pkg:
+	@echo
+	drone exec --pipeline $@
+
 main: target/main.js # Compile release
 	true
 
